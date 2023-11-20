@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+
+body {
+background-color: rgb(248, 239, 239);
+}
+
+p {
+  color: #4b4b4b;
+  line-height: 1.5em;
+}
+
+.logo {
+  height: 50px;
+}
+
+.homepage h3 {
+  font-weight: 900;
+  color: rgb(65, 65 ,65);
+}
+
+.color-brown {
+  color: rgb(151, 88, 88);
+}
+
+.bg-brown {
+  background-color: rgb(151, 88, 88);
+
+ 
+}
+
+.bg-discover {
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.bg-discover:hover {
+  background-color: #e05e36;
+  color: white;
+}
+
+.intro h1 {
+  font-size: 4.3em;
+  color: #343434;
+  font-weight: 900;
+  text-transform: capitalize;
+  font-family: 'Merienda', cursive;
+}
+
+.error {
+  font-size: 13px;
+  font-weight: 600;
+  
+}
+
+
+.hidden {
+  display: none;
+}
+
+.must {
+  color: rgb(255, 0, 0);
+  text-transform: capitalize;
+}
+
+@media (max-width: 768px) {
+  .intro h1 {
+    font-size: 45px;
+  }
+
+  .img {
+    width: 300px;
+  }
+}
